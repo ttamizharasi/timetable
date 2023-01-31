@@ -3,7 +3,7 @@
 ## AIM
 To Write a html webpage page to display your timetable.
 
-# ALGORITHM
+# ALGORITH
 ### STEP 1
 create a simple table using table tag
 ### STEP 2
@@ -46,5 +46,19 @@ Execute the program
 </TR>
 </TABLE>
 
-# OUPUT:![](Timetable.png)
+# OUPUT
+ 
+ ![Timetable(out)](https://user-images.githubusercontent.com/119657317/215796800-a875d114-dee8-47e4-b7f6-2c60c9e3ac3e.png)
+
+
+
+
+
+
+# RESULT
+ 
+ Timetable created successfully with the help of HTML.
+ 
+ 
+ 
  
