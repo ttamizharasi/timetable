@@ -4,6 +4,7 @@
 To Write a html webpage page to display your timetable.
 
 # ALGORITH
+
 ### STEP 1
 create a simple table using table tag
 ### STEP 2
@@ -14,42 +15,79 @@ Add your timetable
 Execute the program
 
 # CODE
- <TABLE BORDER="3" width="750" bgcolor="purple" cellspacing="10" cellpadding="10"> 
-<TR> 
-	<TH colspan="8" align="center" bgcolor="grey">TIME TABLE</TH>
-</TR>   
-<TR> 
-    <TH colspan="2" align="left" bgcolor="grey">REFERENCE NUMBER</TH>
-    <TH colspan="2" align="center" bgcolor="grey">22003025</TH>
-    <TH colspan="2" align="right" bgcolor="grey">NAME</TH>
-    <TH colspan="2" align="right" bgcolor="grey">TAMIZHARASI</TH>
-</TR>
-<TR>
-	<TD width="25%"bgcolor="grey">DAYS</TD> 
-	<TD width="25%"bgcolor="grey">1</TD>
-	<TD width="25%"bgcolor="grey">2</TD>
-    <TD width="25%"bgcolor="grey">3</TD>
-    <TD width="25%"bgcolor="grey">4</TD>
-    <TD width="25%"bgcolor="grey">Lunch break</TD>
-    <TD width="25%"bgcolor="grey">5</TD>
-    <TD width="25%"bgcolor="grey">6</TD>
-</TR>
-<TR>
-    <TD width="25%"bgcolor="grey">MONDAY</TD>
-    <TD width="25%"bgcolor="grey">19AI414</TD>
-    <TD width="25%"bgcolor="grey">English</TD>
-    <TD width="25%"bgcolor="grey">Static</TD>
-    <TD width="25%"bgcolor="grey">Engineering design and modelling</TD>
-    <TD width="25%"bgcolor="grey">        </TD>
-    <TD width="25%"bgcolor="grey">-</TD>
-    <TD width="25%"bgcolor="grey">EP</TD>
-</TR>
-</TABLE>
+   
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title> first sem timetable </title>
+    </head>
+    <body>
+        <img src="timetable/logo.png" width="500" height="200">
+        <table border="3" cellpadding="2">
+            <tr>
+                <th colspan="5" align="center">TIME TABLE</th>
+            </tr>
+            <tr>
+                <td align="center" colspan="3"> Reference Num </td>
+                <td align="center"> 22008172 </td>
+            </tr>
+            <tr>
+                <th width="10%"> DAYS </th>
+                <th align="center"> 1 </th>
+                <th align="center"> 2 </th>
+                <th align="center"> 3 </th>
+                <th align="center"> 4 </th>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="bottom"> MONDAY </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+                <td align="center" height="60"> Communicative English </td>
+                <td align="center" height="60"> Digital Electronics </td>
+                <td align="center" height="60"> Statistics </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="bottom"> TUESDAY </td>
+                <td align="center" height="60"> Digital Electronics </td>
+                <td align="center" height="60"> Statistics </td>
+                <td align="center" height="60"> Communicative English </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+            </tr>
+		<tr>
+                <td width="20%" align="center" valign="bottom"> WEDNESDAY </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+                <td align="center" height="60"> Communicative English </td>
+                <td align="center" height="60"> Digital Electronics </td>
+                <td align="center" height="60"> Statistics </td>
+            </tr>
+    		<tr>
+                <td width="20%" align="center" valign="bottom"> THURSDAY </td>
+                <td align="center" height="60"> Digital Electronics </td>
+                <td align="center" height="60"> Statistics </td>
+                <td align="center" height="60"> Communicative English </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+            </tr>
+    		<tr>
+                 <td width="20%" align="center" valign="bottom"> FRIDAY </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+                <td align="center"> Communicative English </td>
+                <td align="center"> Digital Electronics </td>
+                <td align="center"> Statistics </td>
+            </tr>
+		<tr>
+                <td width="20%" align="center" valign="bottom"> SATURDAY </td>
+                <td align="center" height="60"> Digital Electronics </td>
+                <td align="center" height="60"> Statistics </td>
+                <td align="center" height="60"> Communicative English </td>
+                <td align="center" height="60"> Fundamentals of Web Application Development </td>
+            </tr>
+    
+        </table>
+    </body>
+</html>
+
 
 # OUPUT
- 
- ![Timetable(out)](https://user-images.githubusercontent.com/119657317/215796800-a875d114-dee8-47e4-b7f6-2c60c9e3ac3e.png)
-
+ ![output 3](https://user-images.githubusercontent.com/119657317/215799265-83938722-4633-4135-92a3-017b40b249e1.png)
 
 
 
