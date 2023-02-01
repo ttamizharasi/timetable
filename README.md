@@ -15,7 +15,7 @@ Add your timetable
 Execute the program
 
 # CODE
-   
+ ```  
  <!DOCTYPE html>
 <html>
     <head>
@@ -85,7 +85,7 @@ Execute the program
     </body>
 </html>
 
-
+```
 # OUPUT
  ![output 3](https://user-images.githubusercontent.com/119657317/215799265-83938722-4633-4135-92a3-017b40b249e1.png)
 
